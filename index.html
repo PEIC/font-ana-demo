@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FONTS</title>
+    <style>
+        @font-face {
+            font-family: 'MDICON';
+            src: url('./output/fonticon.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        html, body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #ededed;
+            color: #333;
+        }
+        .text {
+            font-family: 'MDICON' !important;
+            position: relative;
+            font-size: 40px;
+            text-align: center;
+            top: 20%;
+        }
+        .normal {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="normal">normal 正常字体</div>
+    <div class="text">
+        <p>万企明道</p>
+        <p>mingdao.com</p>
+        <p>沟通要开放 协作宜扁平</p>
+        <p>帮助达成业务成果 果然有效</p>
+    </div>
+</body>
+</html>
